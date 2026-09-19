@@ -35,8 +35,3 @@ This project uses 8x8 `load_digits` for a fast, fully-offline demo. To use the f
 (X_train, y_train), (X_test, y_test) = tf.keras.datasets.mnist.load_data()
 ```
 The same CNN architecture (with input_shape adjusted to `(28, 28, 1)`) works unchanged, and can be extended toward full word/sentence recognition with a CRNN (CNN + RNN/LSTM) for sequence modeling, as suggested in the task brief.
-
-## 🎥 Submission Checklist (CodeAlpha)
-- [ ] Push this repo to GitHub as `CodeAlpha_HandwrittenCharacterRecognition`
-- [ ] Record a short video walkthrough and post it on LinkedIn tagging @CodeAlpha, with the GitHub link
-- [ ] Submit via the CodeAlpha submission form
